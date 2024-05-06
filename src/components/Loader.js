@@ -4,7 +4,13 @@ import { TailSpin } from 'react-loader-spinner';
 const Loader = () => {
   return (
     <div className="loader">
-      <TailSpin color="#00BFFF" height={80} width={80} />
+      <TailSpin
+        visible={true}
+        height={80}
+        width={80}
+        ariaLabel="loading-indicator"
+        color="#00BFFF"
+      />
     </div>
   );
 };

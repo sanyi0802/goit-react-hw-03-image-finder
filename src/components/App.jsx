@@ -5,8 +5,9 @@ import ImageGallery from './ImageGallery';
 import Button from './Button';
 import Loader from './Loader';
 import Modal from './Modal';
+import '../App.css';
 
-const API_KEY = 'YOUR_PIXABAY_API_KEY';
+const API_KEY = '43742042-70cb5d7b8a56c01df75a97367';
 
 const App = () => {
   const [images, setImages] = useState([]);

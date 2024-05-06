@@ -18,7 +18,7 @@ const Modal = ({ largeImageURL, alt, onClose }) => {
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
     };
-  }, []);
+  }, [handleKeyDown]);
 
   return (
     <div className="overlay" onClick={handleOverlayClick}>
